@@ -1,0 +1,38 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    flex: 0 0 calc(33.33%-20px);
+    max-width: calc(33.33%-20px);
+    width: 25%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: .3s;
+    border: 2px solid ;
+}
+
+.img{
+    width: 100%;
+    padding: 15px top;
+    align-items: center;
+
+}
+
+.card-body{
+    text-align: center;
+}
+
+.addcard{
+   background-color: rgb(105, 105, 240);
+}
+
+.remove{
+background-color: rgb(231, 120, 120);
+}
